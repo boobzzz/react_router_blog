@@ -5,16 +5,18 @@ const MainLayout = (props) => {
     return (
         <div>
             <Navigation />
-            <hr />
+            <hr/>
             <header>
-                <h3>Header</h3>
+                <h3>Default Header</h3>
             </header>
-            <main>{props.children}</main>
+            <main>
+                {props.children}
+            </main>
             <footer>
-                <h3>Footer</h3>
+                <h3>Default Footer</h3>
             </footer>
-      </div>
-    );
+        </div>
+    )
 }
 
 export default MainLayout;
