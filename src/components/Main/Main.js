@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
 import fetchJSON from "../../lib/api.js";
+
 import Home from "../../components/Home/Home";
 import Post from "../../components/Post/Post";
 import NotFound from "../../components/NotFound/NotFound";
